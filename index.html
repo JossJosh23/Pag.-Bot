@@ -7,10 +7,13 @@
 
 <title>TgxBot | Discord Bot</title>
 
+<meta name="description" content="TGXBot es un bot avanzado para Discord con moderación, niveles y automatización.">
+
 <link rel="icon" href="src/logo1.png" type="image/png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
@@ -18,26 +21,30 @@
 </head>
 
 <body>
-
-<header>
+    <div id="particles-js"></div>
+<header id="header">
 
 <div class="logo">
-    <img src="src/logo1.png" alt="TgxBot Logo">
+<img src="src/logo1.png" alt="TgxBot Logo">
 </div>
 
 <nav>
+
 <div class="system-status">
-    <span class="status-dot"></span>
-    <span class="status-text">Sistema Online</span>
-</div>    
+<span class="status-dot"></span>
+<span class="status-text">Sistema Online</span>
+</div>
+
 <a href="#features">Funciones</a>
 <a href="#stats">Estadísticas</a>
 <a href="#about">Sobre</a>
 <a href="https://discord.gg/pf8XvQGDSY" target="_blank">Soporte</a>
+
 <button class="invite">
-  <img src="src/discord-logo.svg" alt="Discord Logo" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;">
-  Añadir a Discord
+<img src="src/discord-logo.svg" style="width:20px;margin-right:8px;">
+Añadir a Discord
 </button>
+
 </nav>
 
 </header>
@@ -49,12 +56,12 @@
 
 <h1>Potencia tu servidor de Discord</h1>
 
-<p class="typewriter">Mejora tu servidor con <span class="highlight">TGXBot</span>, <br>un bot que ofrece moderación inteligente, <br>niveles y roles automáticos para tu comunidad.</p>
+<p class="typewriter"></p>
 
 <div class="hero-buttons">
 
 <button class="hero-btn">
-<img src="src/discord-logo.svg" alt="Discord Logo" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;">
+<img src="src/discord-logo.svg" style="width:20px;margin-right:8px;">
 Añadir a Discord
 </button>
 
@@ -62,7 +69,7 @@ Añadir a Discord
 
 </div>
 
-<img src="src/logo1.png" alt="TgxBot Logo" class="hero-image">
+<img src="src/logo1.png" class="hero-image" loading="lazy">
 
 </section>
 
@@ -70,7 +77,7 @@ Añadir a Discord
 
 <section id="features" class="features">
 
-<h2>Funciones Principales</h2>
+<h2>Funciones principales</h2>
 
 <div class="feature-grid">
 
@@ -125,6 +132,8 @@ Añadir a Discord
 
 </section>
 
+
+
 <section class="preview">
 
 <h2>Vista previa</h2>
@@ -132,23 +141,25 @@ Añadir a Discord
 <div class="preview-container">
 
 <div class="preview-box">
-<img src="src/logo1.png">
+<img src="src/logo1.png" loading="lazy">
 <p>Comandos de moderación avanzados.</p>
 </div>
 
 <div class="preview-box">
-<img src="src/logo1.png">
+<img src="src/logo1.png" loading="lazy">
 <p>Sistema de niveles automático.</p>
 </div>
 
 <div class="preview-box">
-<img src="src/logo1.png">
+<img src="src/logo1.png" loading="lazy">
 <p>Tickets y soporte para tu comunidad.</p>
 </div>
 
 </div>
 
 </section>
+
+
 
 <section class="commands">
 
@@ -158,39 +169,42 @@ Añadir a Discord
 
 <div class="command-card">
 <h3>/help</h3>
-<p>Muestra todos los comandos disponibles del bot.</p>
+<p>Muestra todos los comandos del bot.</p>
 </div>
 
 <div class="command-card">
 <h3>/rank</h3>
-<p>Muestra tu nivel y experiencia en el servidor.</p>
+<p>Muestra tu nivel.</p>
 </div>
 
 <div class="command-card">
 <h3>/ban</h3>
-<p>Permite moderar usuarios fácilmente.</p>
+<p>Modera usuarios.</p>
 </div>
 
 <div class="command-card">
 <h3>/ticket</h3>
-<p>Crea un ticket de soporte automáticamente.</p>
+<p>Crea tickets automáticamente.</p>
 </div>
 
 </div>
 
 </section>
+
 
 
 <section id="about" class="about">
 
-<h2>Sobre TgxBot</h2>
+<h2>Sobre TGXBot</h2>
 
 <p>
-TgxBot es un bot diseñado para facilitar la administración de comunidades en Discord.
-Incluye herramientas de moderación, automatización y diversión para tus usuarios.
+TGXBot es un bot diseñado para administrar comunidades de Discord
+con herramientas de moderación, automatización y diversión.
 </p>
 
 </section>
+
+
 
 <section class="faq">
 
@@ -201,7 +215,7 @@ Incluye herramientas de moderación, automatización y diversión para tus usuar
 <div class="faq-item">
 <button class="faq-question">¿TGXBot es gratis?</button>
 <div class="faq-answer">
-<p>Sí, la mayoría de funciones del bot son gratuitas.</p>
+<p>Sí, la mayoría de funciones son gratuitas.</p>
 </div>
 </div>
 
@@ -213,7 +227,7 @@ Incluye herramientas de moderación, automatización y diversión para tus usuar
 </div>
 
 <div class="faq-item">
-<button class="faq-question">¿Necesito permisos especiales?</button>
+<button class="faq-question">¿Necesito permisos?</button>
 <div class="faq-answer">
 <p>Solo permisos básicos de moderación.</p>
 </div>
@@ -223,41 +237,50 @@ Incluye herramientas de moderación, automatización y diversión para tus usuar
 
 </section>
 
+
+
 <button id="backToTop" class="back-to-top">↑</button>
 
+
+
 <footer>
-  <div class="footer-content">
-    <div class="footer-section">
-      <h3>TgxBot</h3>
-      <p>El mejor bot para tu servidor de Discord. Moderación, diversión y más.</p>
-    </div>
-    <div class="footer-section">
-      <h4>Enlaces</h4>
-      <ul>
-        <li><a href="#features">Funciones</a></li>
-        <li><a href="#stats">Estadísticas</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="https://discord.gg/pf8XvQGDSY" target="_blank">Soporte</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h4>Conectar</h4>
-      <div class="social-links">
-        <a href="https://discord.com" target="_blank" class="social-link">
-          <img src="src/discord-logo.svg" alt="Discord" style="width: 24px; height: 24px;">
-        </a>
-        <!-- Add more social links if needed -->
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 TgxBot. Todos los derechos reservados.</p>
-  </div>
+
+<div class="footer-content">
+
+<div class="footer-section">
+<h3>TgxBot</h3>
+<p>Moderación, diversión y automatización para tu servidor.</p>
+</div>
+
+<div class="footer-section">
+
+<h4>Enlaces</h4>
+
+<ul>
+<li><a href="#features">Funciones</a></li>
+<li><a href="#stats">Estadísticas</a></li>
+<li><a href="#about">Sobre</a></li>
+<li><a href="https://discord.gg/pf8XvQGDSY">Soporte</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 TgxBot</p>
+
+</div>
+
 </footer>
 
-<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script src="script.js"></script>
 
 </body>
+
 
 </html>
